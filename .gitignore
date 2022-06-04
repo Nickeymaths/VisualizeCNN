@@ -1,6 +1,7 @@
 outputs/*
 models/alexnet.pt
 *__pycache__
+*.ipynb
 *.ipynb_checkpoints
 data/
 

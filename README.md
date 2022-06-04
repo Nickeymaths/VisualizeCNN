@@ -30,4 +30,4 @@ opencv-python == 3.4.0.12
 
 ## Notes
 
-The network use vgg16 pretrained from torchvision.models, the reconstruction proposal is human's labeling, rather model generate.
+The network use Alexnet pretrained from torchvision.models, the reconstruction proposal is human's labeling, rather model generate.
