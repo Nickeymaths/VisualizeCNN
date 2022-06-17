@@ -43,8 +43,8 @@ Deep dream:
 </p>
 
 ## Member
-| Member          | MSSV     | Contribution                                                                  |
-|-----------------|----------|-------------------------------------------------------------------------------|
-| Pham Thanh Vinh | 19021396 | Implement Alexnet conv, deconv, occlusion, visualization, stable experiments  |
-| Nguyen Vu Hieu  | 19021276 | Correspondence experiment                                                     |
-| Tran Ngoc Huong | 19021297 | Run deepdream experiment for visualizing                                      |
+| Member          | Student code  | Contribution                                                                  |
+|-----------------|---------------|-------------------------------------------------------------------------------|
+| Pham Thanh Vinh | 19021396      | Implement Alexnet conv, deconv, occlusion, visualization, stable experiments  |
+| Nguyen Vu Hieu  | 19021276      | Correspondence experiment                                                     |
+| Tran Ngoc Huong | 19021297      | Run deepdream experiment for visualizing                                      |
