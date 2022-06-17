@@ -39,7 +39,7 @@ Except files `vgg16_conv.py`, `vgg16_deconv.py` and some functions in `utils.py`
 <p>
 Deep dream: 
   https://github.com/gordicaleksa/pytorch-deepdream
-  use all code and pre-train model of Google engineer.
+  we use all code of author and pre-train model of Google engineer.
 </p>
 
 ## Member
