@@ -36,9 +36,11 @@ The network use Alexnet pretrained from torchvision.models, the reconstruction p
 https://github.com/huybery/VisualizingCNN
 
 Except files `vgg16_conv.py`, `vgg16_deconv.py` and some functions in `utils.py`, we implemented all rest of this project.
+<p>
 Deep dream: 
   https://github.com/gordicaleksa/pytorch-deepdream
   use all code and pre-train model of Google engineer.
+</p>
 
 ## Member
 | Member          | MSSV     | Contribution                                                                  |
