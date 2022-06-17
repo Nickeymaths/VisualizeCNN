@@ -22,7 +22,7 @@ from mpl_toolkits.axes_grid1 import ImageGrid
 this file is utils lib
 """
 
-
+# Code co san
 def decode_predictions(preds, top=5):
     """Decode the prediction of an ImageNet model
 
@@ -67,6 +67,7 @@ def decode_predictions(preds, top=5):
     return results
 
 
+# Code co san
 def load_images(img_path):
     # imread from img_path
     img = cv2.imread(img_path)
@@ -93,6 +94,7 @@ def get_transformer():
     ])
     return transform
 
+# Code co san
 def store(model):
     """
     make hook for feature map
@@ -114,6 +116,7 @@ def store(model):
         if isinstance(layer, nn.Linear):
             layer.register_forward_hook(partial(hook, key=idx))
 
+# Code co san
 def construct_layer_pattern(img, layer, model_conv, model_deconv):
     conv_output = model_conv(img)
     
@@ -156,7 +159,7 @@ def construct_layer_pattern(img, layer, model_conv, model_deconv):
 
     return new_img, int(max_activation), conv_output
 
-
+# Tu code
 def get_layer_pattern(input_img, layer, channel, vgg16_conv, vgg16_deconv):
     """
     visualing the layer deconv result
@@ -220,7 +223,7 @@ def get_layer_pattern(input_img, layer, channel, vgg16_conv, vgg16_deconv):
 
     return new_img, int(max_activation), conv_output
 
-
+# Tu code
 def load_random_image_path(folder, n=20):
     img_paths = []
     n_per_class = int(n/10)
